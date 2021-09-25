@@ -26,7 +26,7 @@ app.use('/js', express.static(path.resolve(__dirname, "assets/js")))
 // css/style.css
 
 app.get('/',(req, res)=>{
-    res.send("Crud Application");
+    res.render('index')
 })
 
 app.listen(8080, ()=> {console.log('Server is running on http://localhost:${8080}')})
