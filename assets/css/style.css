@@ -218,7 +218,7 @@ table{
 
 #update_user .form-group .btn,
 #add_user .form-group .btn{
-    width: 100%;
+    width: 76%;
     padding: .9em 1em;
     background-color: #16db93;
     border: none;
@@ -226,11 +226,19 @@ table{
     font-size: 1em;
     cursor: pointer;
     border-radius: .5em 0;
-    margin: .5em;
+    margin: .5em 0;
 }
 
 #update_user .form-group .btn:hover,
 #add_user .form-group .btn:hover{
     background-color: var(--dark);
     color: var(--border);
+}
+
+.center {
+  text-align: center;
+}
+
+button{
+    
 }
